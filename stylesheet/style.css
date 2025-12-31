@@ -20,7 +20,7 @@ body {
   text-decoration: none;
 }
 
-.flex-container {
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ body {
   border-radius: 10px;
   box-shadow: 3px 5px 8px grey;
   padding: 16px 16px 20px 16px;
-  margin-top: -10px;
+  margin-top: -30px;
 }
 .flex-box img {
   width: 100%;
@@ -60,9 +60,9 @@ body {
 }
 .flex-box > :nth-child(4) {
   padding-bottom: 40px;
+  font-size: larger;
   border-bottom: 1px grey solid;
 }
 .flex-box > :nth-child(5) {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
